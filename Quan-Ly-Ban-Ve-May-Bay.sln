@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quan-Ly-Ban-Ve-May-Bay", "Quan-Ly-Ban-Ve-May-Bay\Quan-Ly-Ban-Ve-May-Bay.csproj", "{042CDDFA-B02F-4CCA-A2DC-FC84E5CFEF19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Quan-Ly-Ban-Ve-May-Bay_Test", "Quan-Ly-Ban-Ve-May-Bay_Test\Quan-Ly-Ban-Ve-May-Bay_Test.csproj", "{13C50D81-C55F-42C9-B73D-D992E14E31EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7225910D-9971-4471-B8CA-35282C80E9A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{042CDDFA-B02F-4CCA-A2DC-FC84E5CFEF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042CDDFA-B02F-4CCA-A2DC-FC84E5CFEF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042CDDFA-B02F-4CCA-A2DC-FC84E5CFEF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042CDDFA-B02F-4CCA-A2DC-FC84E5CFEF19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C50D81-C55F-42C9-B73D-D992E14E31EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C50D81-C55F-42C9-B73D-D992E14E31EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C50D81-C55F-42C9-B73D-D992E14E31EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C50D81-C55F-42C9-B73D-D992E14E31EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BBED3CA-3420-4D40-92AF-17B0E7FDD41F}
+	EndGlobalSection
+EndGlobal
