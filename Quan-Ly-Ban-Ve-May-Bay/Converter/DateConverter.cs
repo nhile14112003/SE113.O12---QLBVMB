@@ -15,7 +15,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay.Converter
             DateTime? date = value as DateTime?;
             if (date == null)
             {
-                return null; 
+                return null;
             }
             return date.Value.ToString("dd/MM/yyyy");
         }

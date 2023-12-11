@@ -60,10 +60,10 @@ namespace Quan_Ly_Ban_Ve_May_Bay.Model
         public SymbolTicket() { }
         public SymbolTicket(string maVe, string soGhe, string hangVe, string tenHK)
         {
-            this.maVe=maVe;
-            this.hangVe=hangVe;
-            this.soGhe=soGhe;
-            this.tenHK=tenHK;
+            this.maVe = maVe;
+            this.hangVe = hangVe;
+            this.soGhe = soGhe;
+            this.tenHK = tenHK;
         }
     }
 }

@@ -15,6 +15,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay.ViewModel
         private int _thoiGianDungToiDa;
         private int _soGioTruocKhoiHanhChoPhepDatVe;
         private int _soGioTruocKhoiHanhChoPhepHuyVe;
+
         public int ThoiGianBayToiThieu
         {
             get { return _thoiGianBayToiThieu; }
@@ -27,6 +28,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay.ViewModel
                 }
             }
         }
+
         public int SoSanBayTrungGianToiDa
         {
             get { return _soSanBayTrungGianToiDa; }
@@ -39,6 +41,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay.ViewModel
                 }
             }
         }
+
         public int ThoiGianDungToiThieu
         {
             get { return _thoiGianDungToiThieu; }
@@ -51,6 +54,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay.ViewModel
                 }
             }
         }
+
         public int ThoiGianDungToiDa
         {
             get { return _thoiGianDungToiDa; }
@@ -63,6 +67,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay.ViewModel
                 }
             }
         }
+
         public int SoGioTruocKhoiHanhChoPhepHuyVe
         {
             get { return _soGioTruocKhoiHanhChoPhepHuyVe; }
@@ -75,6 +80,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay.ViewModel
                 }
             }
         }
+
         public int SoGioTruocKhoiHanhChoPhepDatVe
         {
             get { return _soGioTruocKhoiHanhChoPhepDatVe; }
@@ -97,4 +103,3 @@ namespace Quan_Ly_Ban_Ve_May_Bay.ViewModel
         }
     }
 }
-

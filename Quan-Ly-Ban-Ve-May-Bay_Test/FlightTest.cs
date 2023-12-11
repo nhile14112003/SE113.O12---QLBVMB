@@ -1,11 +1,10 @@
-﻿using System.Globalization;
+﻿using Quan_Ly_Ban_Ve_May_Bay.Model;
 using System;
-using System.ComponentModel;
-using Quan_Ly_Ban_Ve_May_Bay;
-using Quan_Ly_Ban_Ve_May_Bay.Converter;
-using System.Diagnostics;
-using System.Drawing;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Quan_Ly_Ban_Ve_May_Bay_Test
 {
@@ -51,7 +50,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay_Test
             Assert.IsTrue(propertyWasUpdated);//PropertyChanged
             Assert.AreEqual("Jetstar Pacific Airlines", flight.AirlineName);//get
         }
-        
+
         [TestMethod]
         public void AirlineLogoTest()
         {
@@ -254,7 +253,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay_Test
             Assert.AreEqual(3, flight.BookedSeats);
             Assert.IsTrue(propertyWasUpdated);
         }
-        [TestMethod]    
+        [TestMethod]
         public void FlightIDTest()
         {
             Flight flight = new Flight();

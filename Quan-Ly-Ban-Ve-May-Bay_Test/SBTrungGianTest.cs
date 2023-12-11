@@ -1,8 +1,6 @@
-﻿using Quan_Ly_Ban_Ve_May_Bay;
-using Quan_Ly_Ban_Ve_May_Bay.Model;
+﻿using Quan_Ly_Ban_Ve_May_Bay.Model;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;

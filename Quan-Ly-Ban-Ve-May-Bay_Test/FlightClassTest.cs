@@ -1,13 +1,9 @@
-﻿using Quan_Ly_Ban_Ve_May_Bay;
-using Quan_Ly_Ban_Ve_May_Bay.Model;
+﻿using Quan_Ly_Ban_Ve_May_Bay.Model;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Media.Media3D;
 
 namespace Quan_Ly_Ban_Ve_May_Bay_Test
 {

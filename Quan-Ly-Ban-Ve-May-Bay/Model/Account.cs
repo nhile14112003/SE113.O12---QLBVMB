@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Controls;
 
 namespace Quan_Ly_Ban_Ve_May_Bay.Model
 {
@@ -20,7 +18,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay.Model
             _username = name;
             _password = pass;
             _email = email;
-            _type= type;
+            _type = type;
             _displayname = displayname;
         }
         public string id { get { return _id; } set { _id = value; } }

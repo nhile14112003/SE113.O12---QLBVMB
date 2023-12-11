@@ -5,18 +5,79 @@
   },
   "projects": {
     "C:\\SE113.O12-QLBVMB\\Quan-Ly-Ban-Ve-May-Bay\\Quan-Ly-Ban-Ve-May-Bay.csproj": {
+      "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\SE113.O12-QLBVMB\\Quan-Ly-Ban-Ve-May-Bay\\Quan-Ly-Ban-Ve-May-Bay.csproj",
         "projectName": "Quan-Ly-Ban-Ve-May-Bay",
         "projectPath": "C:\\SE113.O12-QLBVMB\\Quan-Ly-Ban-Ve-May-Bay\\Quan-Ly-Ban-Ve-May-Bay.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\SE113.O12-QLBVMB\\Quan-Ly-Ban-Ve-May-Bay\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
         "frameworks": {
-          "net472": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
             "projectReferences": {}
           }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
         }
       },
       "frameworks": {
-        "net472": {}
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MaterialDesignThemes": {
+              "target": "Package",
+              "version": "[4.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
       }
     },
     "C:\\SE113.O12-QLBVMB\\Quan-Ly-Ban-Ve-May-Bay_Test\\Quan-Ly-Ban-Ve-May-Bay_Test.csproj": {
@@ -25,11 +86,15 @@
         "projectUniqueName": "C:\\SE113.O12-QLBVMB\\Quan-Ly-Ban-Ve-May-Bay_Test\\Quan-Ly-Ban-Ve-May-Bay_Test.csproj",
         "projectName": "Quan-Ly-Ban-Ve-May-Bay_Test",
         "projectPath": "C:\\SE113.O12-QLBVMB\\Quan-Ly-Ban-Ve-May-Bay_Test\\Quan-Ly-Ban-Ve-May-Bay_Test.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
         "outputPath": "C:\\SE113.O12-QLBVMB\\Quan-Ly-Ban-Ve-May-Bay_Test\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,19 +126,19 @@
           "dependencies": {
             "MSTest.TestAdapter": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.2.10, )"
             },
             "MSTest.TestFramework": {
               "target": "Package",
-              "version": "[2.0.0, )"
+              "version": "[2.2.10, )"
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.7.1, )"
+              "version": "[17.5.0, )"
             },
-            "System.Data.SqlClient": {
+            "Moq": {
               "target": "Package",
-              "version": "[4.5.1, )"
+              "version": "[4.20.70, )"
             },
             "coverlet.collector": {
               "target": "Package",
@@ -94,12 +159,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WPF": {
-              "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

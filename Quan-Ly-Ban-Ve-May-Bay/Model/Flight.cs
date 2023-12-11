@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Quan_Ly_Ban_Ve_May_Bay
+namespace Quan_Ly_Ban_Ve_May_Bay.Model
 {
     public class Flight : INotifyPropertyChanged
     {
@@ -168,11 +168,11 @@ namespace Quan_Ly_Ban_Ve_May_Bay
             this.airportDestinationName = airportDestinationName;
             this.timeDestination = timeDestination;
             this.timeDeparture = timeDeparture;
-            this.time= time;
+            this.time = time;
             this.stop = stop;
             this.price = price;
-            this.dateTimeDeparture = dateTimeDeparture; 
-            this.dateTimeDestination = dateTimeDestination; 
+            this.dateTimeDeparture = dateTimeDeparture;
+            this.dateTimeDestination = dateTimeDestination;
         }
         public Flight(string flightID, string airlineLogo, string airlineName, string airportDepartureName, string airportDestinationName, string timeDestination, string timeDeparture, TimeSpan time, DateTime dateTimeDeparture, DateTime dateTimeDestination, int stop, long price, int availableSeats, int bookedSeats)
         {

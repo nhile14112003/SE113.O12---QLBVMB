@@ -1,7 +1,9 @@
-﻿using Quan_Ly_Ban_Ve_May_Bay;
-using Quan_Ly_Ban_Ve_May_Bay.Model;
-using Quan_Ly_Ban_Ve_May_Bay.Pages;
-using System.Diagnostics;
+﻿using Quan_Ly_Ban_Ve_May_Bay.Model;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Quan_Ly_Ban_Ve_May_Bay_Test
 {
@@ -11,6 +13,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay_Test
         [TestMethod]
         public void isPositiveIntgerTest()
         {
+
             Assert.IsFalse(DataProvider.isPositiveInteger("a"));
             Assert.IsFalse(DataProvider.isPositiveInteger("0"));
             Assert.IsTrue(DataProvider.isPositiveInteger("30"));
@@ -37,14 +40,14 @@ namespace Quan_Ly_Ban_Ve_May_Bay_Test
             var arrData1 = new List<QLHangVeClass>();
             Assert.IsFalse(DataProvider.isDuplicateValue(arrData1));
             var data1 = new QLHangVeClass() { Mahangve = "1" };
-            arrData1 .Add(data1);
+            arrData1.Add(data1);
             Assert.IsFalse(DataProvider.isDuplicateValue(arrData1));
             arrData1.Add(data1);
             Assert.IsTrue(DataProvider.isDuplicateValue(arrData1));
             arrData1 = new List<QLHangVeClass>();
-            var data2 = new QLHangVeClass() { Mahangve = "2"};
-            arrData1.Add (data1);
-            arrData1.Add(data2);    
+            var data2 = new QLHangVeClass() { Mahangve = "2" };
+            arrData1.Add(data1);
+            arrData1.Add(data2);
             Assert.IsFalse(DataProvider.isDuplicateValue(arrData1));
         }
         [TestMethod]
@@ -52,15 +55,15 @@ namespace Quan_Ly_Ban_Ve_May_Bay_Test
         {
             var tickets = new List<Ticket>();
             Assert.IsTrue(DataProvider.checkInfor(tickets));
-            tickets.Add(new Ticket() { HkName = "1"});
+            tickets.Add(new Ticket() { HkName = "1" });
             Assert.IsTrue(DataProvider.checkInfor(tickets));
             tickets.Add(new Ticket() { HkName = "" });
             Assert.IsFalse(DataProvider.checkInfor(tickets));
         }
         [TestMethod]
         [DataRow("241923279", true)]
-        [DataRow("243334545", false)]   
-        
+        [DataRow("243334545", false)]
+
         public void checkCMNDInArrTest(string compare, bool check)
         {
             var tickets = new List<Ticket>();
@@ -70,7 +73,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay_Test
             tickets.Add(new Ticket() { CMND = compare });
             Assert.AreEqual(false, DataProvider.checkCMNDInArr(tickets, check, compare));
         }
-        [TestMethod]    
+        [TestMethod]
         public void addDataToSeatTest()
         {
             var data1 = new Ticket() { SeatNumber = 1 };
@@ -80,7 +83,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay_Test
             var data5 = new Ticket() { SeatNumber = 5 };
             var data6 = new Ticket() { SeatNumber = 6 };
             var data7 = new Ticket() { SeatNumber = 7 };
-            var tickets = new List<Ticket>() { data1, data2, data3, data4, data5, data6, data7};
+            var tickets = new List<Ticket>() { data1, data2, data3, data4, data5, data6, data7 };
             var expectedResult = new List<Ticket>() { data6 };
             Assert.IsTrue(expectedResult.SequenceEqual(DataProvider.addDataToSeat(tickets, 0)));
             expectedResult = new List<Ticket>() { data1, data7 };

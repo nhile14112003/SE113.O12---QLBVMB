@@ -57,11 +57,12 @@ namespace Quan_Ly_Ban_Ve_May_Bay.Model
             }
         }
         public FlightClass() { }
-        public FlightClass(string classId, string className, string percent, string classColor) {
+        public FlightClass(string classId, string className, string percent, string classColor)
+        {
             this.classId = classId;
-            this.percent = percent; 
+            this.percent = percent;
             this.className = className;
-            this.classColor = classColor;   
+            this.classColor = classColor;
         }
         public FlightClass(string className, string classColor)
         {

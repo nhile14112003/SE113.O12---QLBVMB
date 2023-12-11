@@ -1,19 +1,16 @@
-﻿using System;
+﻿using Quan_Ly_Ban_Ve_May_Bay.Model;
+using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
-using Quan_Ly_Ban_Ve_May_Bay;
-using Quan_Ly_Ban_Ve_May_Bay.Model;
 
 namespace Quan_Ly_Ban_Ve_May_Bay_Test
 {
     [TestClass]
     public class TicketTest
     {
-        [TestMethod]    
+        [TestMethod]
         public void TicketPropertiesTest()
         {
             var ticket = new Ticket();
@@ -62,7 +59,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay_Test
         [TestMethod]
         [DataRow("1", "Hang 1", 15, "BOOKED", "1121",
             "Le Thi Lan Nhi", "241923279", "0843593598", "Red")]
-        public void FlightConstructorTest(string ticketID, string flightClass, int seatNumber, 
+        public void FlightConstructorTest(string ticketID, string flightClass, int seatNumber,
             string status, string hkID, string hkName, string cmnd, string phoneNumber, string color)
         {
             var ticket = new Ticket(ticketID, flightClass, seatNumber, status, hkID, hkName, cmnd, phoneNumber);

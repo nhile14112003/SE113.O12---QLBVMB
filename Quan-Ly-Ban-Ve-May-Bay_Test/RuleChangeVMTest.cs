@@ -1,11 +1,9 @@
-﻿using System;
+﻿using Quan_Ly_Ban_Ve_May_Bay.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Media.Media3D;
-using Quan_Ly_Ban_Ve_May_Bay;
-using Quan_Ly_Ban_Ve_May_Bay.ViewModel;
 
 namespace Quan_Ly_Ban_Ve_May_Bay_Test
 {
@@ -34,7 +32,7 @@ namespace Quan_Ly_Ban_Ve_May_Bay_Test
                 }
             };
             ruleChange.ThoiGianBayToiThieu = 15;
-            
+
             Assert.AreEqual(15, ruleChange.ThoiGianBayToiThieu);
             Assert.IsTrue(propertyWasUpdated);
             propertyWasUpdated = false;
