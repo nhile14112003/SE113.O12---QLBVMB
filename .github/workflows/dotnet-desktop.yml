@@ -70,13 +70,11 @@ jobs:
 
     # Install the .NET Core workload
     - name: Install .NET 
-      uses: actions/setup-dotnet@v3
+      uses: actions/setup-dotnet@v4
       with:
         dotnet-version: ${{ matrix.dotnet-version }}
         
-   # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
-    - name: Setup MSBuild.exe
-      uses: microsoft/setup-msbuild@v1.0.2
+  
 
     # Restore NuGet packages
     - name: Installing dependency command
